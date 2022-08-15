@@ -1,16 +1,30 @@
-### Hi there 👋
 
-<!--
-**litvinav/litvinav** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```rs
+impl Humble for litvinav {
+  fn greet() {
+    println!("Hi, let's connect!");
+  }
+} 
+```
 
-Here are some ideas to get you started:
+```ts
+import { DevOps } from "litvinav";
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+const skills: Partial<DevOps> = {
+  delivery: ['GitHub', 'Gitlab'],
+  platform: ['Google Cloud', 'Kubernetes', 'Docker'],
+  languages: ['TypeScript', 'Rust', 'C#'],
+  os: ['Unix'],
+}
+```
+
+```csharp
+var interests = new List<string>() {
+  "Web",
+  "RCE",
+  "Functional programming",
+  "Automation",
+  "Beautiful code",
+};
+Console.WriteLine("Let's talk about " + String.Join(", ", interests));
+```
